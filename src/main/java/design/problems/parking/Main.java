@@ -1,14 +1,11 @@
-package main.java.DesignProblems.ParkingLot;
+package main.java.design.problems.parking;
 
-import main.java.DesignProblems.ParkingLot.Enums.VehicleType;
-import main.java.DesignProblems.ParkingLot.Pojos.ParkingSpot;
-import main.java.DesignProblems.ParkingLot.Pojos.Receipt;
-import main.java.DesignProblems.ParkingLot.Pojos.Ticket;
-import main.java.DesignProblems.ParkingLot.Pojos.Vehicle;
-import main.java.DesignProblems.ParkingLot.Service.ParkingService;
-import main.java.DesignProblems.ParkingLot.Service.TicketingService;
-import main.java.DesignProblems.ParkingLot.Strategy.Impls.HourlyPricing;
-import main.java.DesignProblems.ParkingLot.Strategy.Impls.ParkingNearEntrance;
+import main.java.design.problems.parking.enums.VehicleType;
+import main.java.design.problems.parking.dao.ParkingSpot;
+import main.java.design.problems.parking.dao.Ticket;
+import main.java.design.problems.parking.service.ParkingService;
+import main.java.design.problems.parking.strategy.Impls.HourlyPricing;
+import main.java.design.problems.parking.strategy.Impls.ParkingNearEntrance;
 
 import java.util.Arrays;
 

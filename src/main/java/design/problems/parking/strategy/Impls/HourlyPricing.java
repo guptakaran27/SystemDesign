@@ -1,13 +1,11 @@
-package main.java.DesignProblems.ParkingLot.Strategy.Impls;/*
+package main.java.design.problems.parking.strategy.Impls;/*
  * @project DesignPattern
  * @author karan.k.gupta
  *
  */
 
-import main.java.DesignProblems.ParkingLot.Pojos.ParkingSpot;
-import main.java.DesignProblems.ParkingLot.Pojos.Ticket;
-import main.java.DesignProblems.ParkingLot.Strategy.ParkingStrategy;
-import main.java.DesignProblems.ParkingLot.Strategy.PricingStrategy;
+import main.java.design.problems.parking.dao.Ticket;
+import main.java.design.problems.parking.strategy.PricingStrategy;
 
 import java.time.LocalDateTime;
 

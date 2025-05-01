@@ -1,9 +1,8 @@
-package main.java.DesignProblems.ParkingLot.Enums;/*
+package main.java.design.problems.parking.enums;
+/*
  * @project DesignPattern
  * @author karan.k.gupta
- *
  */
-
 public enum VehicleType {
     TWO_WHEELER(100,30),
     FOUR_WHEELER(150,50);

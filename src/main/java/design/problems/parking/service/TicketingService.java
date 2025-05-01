@@ -1,13 +1,10 @@
-package main.java.DesignProblems.ParkingLot.Service;
+package main.java.design.problems.parking.service;
 
-import main.java.DesignProblems.ParkingLot.Pojos.ParkingSpot;
-import main.java.DesignProblems.ParkingLot.Pojos.Receipt;
-import main.java.DesignProblems.ParkingLot.Pojos.Ticket;
-import main.java.DesignProblems.ParkingLot.Pojos.Vehicle;
-import main.java.DesignProblems.ParkingLot.Strategy.PricingStrategy;
+import main.java.design.problems.parking.dao.ParkingSpot;
+import main.java.design.problems.parking.dao.Ticket;
+import main.java.design.problems.parking.strategy.PricingStrategy;
 
 import java.time.LocalDateTime;
-import java.time.temporal.ChronoUnit;
 
 /**
  * @author Karan Gupta
